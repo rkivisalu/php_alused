@@ -23,12 +23,12 @@ if ($booleanTrue == true) {
     print ('true on true<br>');
 }
 else {
-    print('ei ole tõsi');
+    print('true ei ole tõsi<br>');
 }
 
 if ($booleanFalse == false) {
     print ('false on false<br>');
 }
 else {
-    print('false on true');
+    print('false on true<br>');
 }
