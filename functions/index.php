@@ -76,7 +76,55 @@ veelkord1("katse2", "tundub et endiselt töötab hästi");
 
 print "<hr>";
 
-function fontWrap ( $txt, $size) {
-    
+function fontWrap ( $txt, $size=3) {
+    print "<font size=\"$size\" face=\"Helvetica,Arial,Sans-Serif\">$txt</font>";
 }
+fontWrap ("a Heading<br>",5);
+fontWrap("some body text<br>");
+fontWrap("some more body text <br>");
+fontWrap("and some more body text<br>" );
 
+print "<hr>";
+
+function addFive (&$num) {
+    $num += 5;
+}
+$kumme = 10;
+
+addFive ($kumme);
+print ($kumme);
+
+print "<hr>";
+?>
+<style>
+    table, tr, td {
+        border: solid 1px black;
+        border-collapse:collapse;
+    }}
+
+</style>
+<?php
+function neliLauset($txt, $txt1, $txt2, $txt3) {
+    print "<table>";
+        print "<tr>";
+            print "<td>";
+                print "$txt";
+            print "</td>";
+        print "</tr>";
+        print "<tr>";
+            print "<td>";
+                print "$txt1";
+            print "</td>";
+        print "</tr>";
+        print "<tr>";
+            print "<td>";
+                print "$txt2";
+            print "</td>";
+        print "</tr>";
+        print "<tr>";
+            print "<td>";
+                print "$txt3";
+            print "</td>";
+        print "</tr>";
+}
+neliLauset("see on lause 1","see on lause 2","see on lause 3","see on lause 4");
