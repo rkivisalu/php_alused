@@ -104,27 +104,14 @@ print "<hr>";
 
 </style>
 <?php
-function neliLauset($txt, $txt1, $txt2, $txt3) {
+function neliLauset($txt4, $txt1, $txt2, $txt3) {
     print "<table>";
         print "<tr>";
-            print "<td>";
-                print "$txt";
-            print "</td>";
-        print "</tr>";
-        print "<tr>";
-            print "<td>";
-                print "$txt1";
-            print "</td>";
-        print "</tr>";
-        print "<tr>";
-            print "<td>";
-                print "$txt2";
-            print "</td>";
-        print "</tr>";
-        print "<tr>";
-            print "<td>";
-                print "$txt3";
-            print "</td>";
-        print "</tr>";
+            for ($i=1; $i <= 4; $i++);
+            echo '<td>';
+                echo ${'txt'.$i};
+            echo '</td>';
+            print "</tr>";
+        print "</table>";
 }
 neliLauset("see on lause 1","see on lause 2","see on lause 3","see on lause 4");
