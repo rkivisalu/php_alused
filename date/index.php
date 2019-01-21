@@ -79,5 +79,16 @@ $kuu = $eesti_kuud[date('n')];
 $aasta = date('Y');
 //kuupäeva väljastamine
 echo $paev.'.'.$kuu.' '.$aasta.' '.$paev1;	//21.jaanuar 2019
+echo "<hr>";
 
+$d1 = strtotime("june 24");
+$d2 =ceil(($d1-time())/60/60/24);
+echo"Jaanipäevani on jäänud " . $d2 . " päeva!";
+echo " <hr> ";
+
+$synna1= mktime(0,0,0,11,06,1980);
+$synna2= mktime(0,0,0,06,12,1997);
+echo date('d.m.Y', $synna1);
+echo"<br>";
+echo date('d.m.Y', $synna2);
 
