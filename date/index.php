@@ -91,4 +91,5 @@ $synna2= mktime(0,0,0,06,12,1997);
 echo date('d.m.Y', $synna1);
 echo"<br>";
 echo date('d.m.Y', $synna2);
+echo date('d.m.Y',);
 
