@@ -6,3 +6,5 @@
  * Time: 14:17
  */
 require_once ('fnk.php');
+$loginform= htmlFromFile('login');
+echo $loginform;
