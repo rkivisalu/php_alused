@@ -28,6 +28,6 @@ echo '<br>';
 $sql = 'select now()';
 $aeg = getdata($sql, $iktconn);
 echo'<pre>';
-print_r($aeg'');
+print_r($aeg);
 echo'</pre>';
 echo $aeg[0]['now()'].'<br>';
