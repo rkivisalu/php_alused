@@ -1,7 +1,6 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Rkivi
- * Date: 27/03/2019
- * Time: 11:46
- */
+
+    <div id="sisu">
+        <h2>Portfoolio</h2>
+        <p> see on portfoolio leht</p>
+    </div>
+<?php include('jalus.php'); ?>

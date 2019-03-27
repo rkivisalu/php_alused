@@ -1,7 +1,6 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Rkivi
- * Date: 27/03/2019
- * Time: 11:46
- */
+
+<div id="sisu">
+    <h2>Kontakt</h2>
+    <p> see on kontakti leht</p>
+</div>
+<?php include('jalus.php'); ?>
